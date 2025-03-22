@@ -1,0 +1,26 @@
+/* Buttons Panel (Now a grid layout) */
+#actions-panel {
+    display: grid;
+    height: max-content;
+    width: max-content;
+    grid-template-columns: repeat(3, auto);
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+#actions-panel button {
+    background: #2e2e2e;
+    cursor: pointer;
+    height: 40px;
+    width: 80px;
+}
+
+#actions-panel button:hover {
+    background: #555555;
+    /* Slightly lighter grey on hover */
+}
+
+#actions-panel button:active {
+    background: #666666;
+    /* Even lighter grey when pressed */
+}

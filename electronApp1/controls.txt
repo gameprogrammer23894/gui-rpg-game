@@ -1,0 +1,4 @@
+arrow keys = move map
+control + click = move map to cell
+q = explore
+w = rest

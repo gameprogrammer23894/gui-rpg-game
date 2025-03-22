@@ -1,0 +1,53 @@
+Project idea conceived in 2017
+Studied programming for about 8 years
+(Although, there were time gaps in between from personal life things
+such as work, family, travel)
+This project edition started on my birthday, March 2, 2025
+
+Type: Bug fix
+Status: Completed
+Created: March / 8 / 2025 / 3:50 PM EST
+Edited: March / 8 / 2025 / 3:50 PM EST
+- The popup manager and character creation manager needs to be fixed.
+Right now it seems character creation is handling yes and no and close notice and such.
+This is the popup manager's job. So, we need to move it into there and then
+make the popup manager have a modular paramater this way multiple components
+of the game can utilize it, not just character creation.
+
+Type: Improvement
+Status: Complete
+Created: March / 9 / 2025 / 6:15 PM EST
+Edited: March / 9 / 2025 / 6:15 PM EST
+- Need to make a prompt manager to have parameters to be modular for prompt phase objects, instead of having the prompt phase objects themselves do the displaying and filling the prompt html with data.
+
+Type: Add Feature
+Status: Completed
+Created: March / 10 / 2025 / 2:11 PM EST
+Edited: March / 10 / 2025 / 2:11 PM EST
+- Added health and fatigue bars which decrease/increase from in game actions which some consume fatigue and if you get damaged your health decreases.
+
+Type: Add Feature
+Status: Not completed
+Created: March / 12 / 2025 / 4:23 PM EST
+Edited:
+- When player creates their character:
+1. pick random region
+2. procedurally generate map
+3. create first place
+4. assign that place to player
+5. update UI player's room label
+6. update map to show room highlighted or dot graphic on player's place
+7. write function for travel
+8. when player travels, update player's place data, update ui player's place label, update player graphic on map, decrease player's fatigue, push message to text log that player traveled
+
+Type: Improvement
+Status: Completed
+Created: March / 13 / 2025 / 8:16 PM EST
+Edited: March / 13 / 2025 / 8:16 PM EST
+- Organized project directory, so there is now modules folder, scripts folder, templates folder, classes folder, html folder, css folder, graphics folder, config folder (which handles most of electron related things) and some main files in the root directory.
+
+Type: Improvement
+Status: Completed
+Created: March / 22 / 2025 / 7:40 AM EST
+Edited: March / 22 / 2025 / 7:40 AM EST
+- Updated the template structure of prompts/dialogues. Updated the prompt manager to sequentally move through dialogues unless an option selected specifies moving to a specific dialogue. This prompt template can be used for both linear menus or to move to specific parts of the dialogue like going back to an earlier dialogue or going towards the end. It's also useful for menus that just go from one dialogue to the next sequentially.

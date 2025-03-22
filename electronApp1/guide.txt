@@ -1,0 +1,79 @@
+Guide to Text-Based RPG Game Interface
+
+In this text-based RPG game, the interface is designed to give players an immersive experience while exploring, interacting, and navigating the virtual world. Here’s a breakdown of the different panels and available commands to help you understand how to play.
+
+1. Info Panel
+
+The Info Panel displays essential details about your character and the current environment. This panel typically includes information such as:
+
+Health, mana, experience points, and other attributes like strength, intelligence, or agility.
+Location Details: Current area or region you are exploring, including nearby landmarks or NPCs (Non-Player Characters).
+
+Quests or Objectives
+
+Active quests or tasks you are working on, providing direction for your adventure.
+
+2. Map Panel
+
+The Map Panel provides a visual representation of your character's surroundings. It may be a simple grid or an evolving map that updates as you travel and discover new locations.
+See where you’ve been and where you might want to go next.
+Identify points of interest: Locations to explore, NPCs to talk to, or areas where you might find resources or hidden items.
+
+3. Text Log Panel
+
+The Text Log Panel serves as the narrative hub for your adventure. It displays detailed descriptions of actions, events, and interactions. When you perform any action or command, such as exploring an area or engaging in combat, the text log will update to reflect what happened. This is where you’ll get story details, dialogue, and feedback from the game world.
+
+4. Buttons Panel
+
+The Buttons Panel is a collection of commands that you can click to perform various actions within the game. These commands allow you to interact with the game world and progress your adventure. Here are some of the primary buttons:
+
+Commands Overview
+
+The game offers a variety of commands that you can use to influence your experience and progress in the game. These commands are typically invoked through the button clicks mentioned above, and each command triggers a unique response in the game world, such as providing information, triggering combat, or updating your quest log.
+
+Common Commands
+
+Explore: Look around the environment to uncover new locations.
+Search: Investigate your surroundings for hidden items or secrets.
+Talk: Initiate dialogue with NPCs to learn more about the world or receive quests.
+Combat: Engage in battles with enemies, which may require strategic thinking or use of combat skills.
+Item: Check your inventory for usable items, such as healing potions or weapons.
+Rest: Take a break to restore health or other stats that may have been depleted.
+Camp: Set up camp in a safe location, often to rest, craft, or prepare for a journey ahead.
+Spell: Use magical abilities to affect the environment or combat situations.
+Travel: Move to new locations, uncovering new places to explore.
+Use: Utilize specific items or tools that can aid you in your quest.
+Skill: Perform actions requiring specific skills, such as picking locks or crafting.
+Examine: Inspect objects, NPCs, or areas closely to gain more insight or discover hidden elements.
+
+Encounters
+
+In a text-based RPG, encounters refer to any interaction or event that occurs during your journey. These can happen randomly or as part of the story, and they can significantly impact your adventure. Here’s a breakdown of the main types of encounters you may experience:
+
+1. NPC Encounters
+
+NPCs (Non-Player Characters) are characters controlled by the game rather than the player. Encounters with NPCs can involve a variety of interactions:
+
+Conversations
+
+You can talk to NPCs to learn about quests, lore, or receive helpful information. Some NPCs may offer to join your party or sell items.
+Quests: NPCs are often the source of quests, tasks, or challenges that you must complete for rewards, such as gold, items, or experience points.
+Favors or Services: NPCs can provide healing, crafting, or sell you supplies, making them key allies in your journey.
+
+2. Item Encounters
+
+An item encounter happens when you find or interact with an item within the game. This could be anything from hidden treasures to usable resources:
+
+Finding Items
+
+You may discover items while exploring, such as potions, weapons, or rare artifacts. These can help in battles, healing, or advancing in quests.
+Using Items: Once an item is in your inventory, you can use it to gain advantages in your adventure. For example, you might use a health potion to recover health or a key to unlock a door.
+Item Interactions: Some items may be required to solve puzzles or complete objectives. You may need to combine items or use them in specific ways to progress.
+3. Event Encounters
+Event encounters are predefined or random occurrences that trigger as part of the game’s storyline or mechanics. These can include:
+
+Combat Events
+
+These are battles with enemies or monsters that test your strength and strategy. Winning combat encounters can reward you with experience, loot, or other benefits.
+Environmental Events: Certain locations might trigger special events, such as weather changes, traps, or environmental hazards that you need to react to or navigate.
+Story Events: These are key moments that advance the plot, such as discovering a hidden secret, receiving a quest update, or being confronted by a major enemy.

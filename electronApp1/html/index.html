@@ -1,0 +1,171 @@
+<!-- formatting -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- headers -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text RPG Game</title>
+
+    <!-- css links -->
+
+    <link rel="stylesheet" href="../css/body.css">
+    <link rel="stylesheet" href="../css/popup.css">
+    <link rel="stylesheet" href="../css/prompts.css">
+    <link rel="stylesheet" href="../css/map.css">
+    <link rel="stylesheet" href="../css/text.css">
+    <link rel="stylesheet" href="../css/actions.css">
+    <link rel="stylesheet" href="../css/info.css">
+</head>
+
+<body>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~ GAME HTML SECTION ~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <div id="game-container" style="display: none;">
+        <div id="info-panel">
+            <div class="panel" id="character-panel">
+                <div>Name: <span id="spanPlayerName">Player</span></div>
+                <div id="div-place"><span id="spanPlace">Empty Room</span></div>
+            </div>
+
+            <div class="panel" id="calendar-panel">
+                <div>Date: <span id="spanDate">Year 100 / Season 1</span></div>
+                <div>Time: <span id="spanTime">Midday</span></div>
+                <div>Weather: <span id="spanWeather">Temperate</span></div>
+            </div>
+
+            <div class="panel" id="status-panel">
+                <div class="status-container">
+                    <div id="health-bar"></div>
+                    <span class="label">Health</span>
+                </div>
+                <div class="status-container">
+                    <div id="fatigue-bar"></div>
+                    <span class="label">Fatigue</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="game-container-row">
+            <div class="panel" id="map-panel">
+                <div id="map-grid">
+                </div>
+            </div>
+
+            <div class="panel" id="text-log-panel">
+                <p>Welcome, adventurer! Your journey begins...</p>
+            </div>
+
+            <div id="actions-panel">
+                <button id="explore-button" onclick="modules.actionManager.explore()">Explore</button>
+                <button id="search-button">Search</button>
+                <button id="look-button">Look</button>
+                <button id="talk-button">Talk</button>
+                <button id="combat-button">Combat</button>
+                <button id="item-button">Item</button>
+                <button id="rest-button" onclick="modules.actionManager.rest()">Rest</button>
+                <button id="camp-button">Camp</button>
+                <button id="spell-button">Spell</button>
+                <button id="travel-button">Travel</button>
+                <button id="use-button">Use</button>
+                <button id="skill-button">Skill</button>
+                <button id="examine-button">Examine</button>
+                <button id="trade-button">Trade</button>
+                <button id="enter-button">Enter</button>
+                <button id="exit-button">Exit</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~ PROMPT SECTION ~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <div id="prompts-container">
+        <div id="prompts-inner-container">
+            <div id="prompt"></div>
+            <div id="answers"></div>
+        </div>
+    </div>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~ POPUP SECTION ~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <div id="custom-popup-container" style="display: none;">
+        <div id="custom-notice-content">
+            <p id="notice-message"></p>
+            <button id="ok-btn">OK</button>
+        </div>
+
+        <div id="custom-confirm-content">
+            <p id="confirm-message"></p>
+            <button id="yes-btn">Yes</button>
+            <button id="no-btn">No</button>
+        </div>
+    </div>
+
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~ SCRIPTS SECTION ~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+    <!-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+    <script src="../scripts/initialize.js"></script>
+
+    <script src="../scripts/prompts/characterCreation.js"></script>
+
+    <script src="../scripts/templates/places.js"></script>
+
+    <script src="../scripts/classes/place.js"></script>
+    <script src="../scripts/classes/character.js"></script>
+
+    <script src="../scripts/modules/ui.js"></script>
+    <script src="../scripts/modules/prompt.js"></script>
+    <script src="../scripts/modules/output.js"></script>
+    <script src="../scripts/modules/action.js"></script>
+    <script src="../scripts/modules/popup.js"></script>
+    <script src="../scripts/modules/game.js"></script>
+    <script src="../scripts/modules/input.js"></script>
+    <script src="../scripts/modules/map.js"></script>
+    <script src="../scripts/modules/generator.js"></script>
+
+    <script src="../scripts/start.js"></script>
+
+</body>
+
+</html>
